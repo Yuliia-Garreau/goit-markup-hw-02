@@ -1,42 +1,49 @@
 body {
-  background-color: ;
-}
-
-header {
-  background-color: #ffffff;
   font-family: "Roboto", "Raleway", sans-serif;
 }
 
+.header-container {
+  background-color: #ffffff;
+  height: 72px;
+  width: 1440px;
+}
+
 .logo {
-  font-family: var(--second-family);
   font-weight: 700;
   font-size: 18px;
   line-height: 117%;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--navy-blue);
+  color: #2e2f42;
 }
 
 .menu {
-  font-family: var(--font-family);
   font-weight: 500;
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 0.02em;
-  color: var(--navy-blue);
+  color: #2e2f42;
 }
 
 .contacts {
-  font-family: var(--font-family);
   font-weight: 400;
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 0.02em;
-  color: var(--slate);
+}
+
+.contacts:hover,
+.contacts:active {
+  color: #434455;
+}
+
+.main-section {
+  background-color: #2e2f42;
+  width: 1440px;
+  height: 660px;
 }
 
 .main-title {
-  font-family: var(--font-family);
   font-weight: 700;
   font-size: 56px;
   line-height: 107%;
@@ -46,12 +53,6 @@ header {
   padding-top: 188px;
   padding-bottom: 48px;
 }
-.main-section {
-  background-color: #2e2f42;
-  width: 1440px;
-  height: 600px;
-}
-
 .button-order-service {
   border-radius: 4px;
   padding: 16px 32px;
@@ -60,6 +61,14 @@ header {
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background: #4d5ae5;
   color: #ffffff;
+  cursor: pointer;
+  padding-top: 0px;
+  text-align: center;
+}
+
+.button-order-service:hover,
+.button-order-service:active {
+  color: #4d5ae5;
 }
 
 .features-title {
@@ -67,14 +76,73 @@ header {
   font-size: 20px;
   line-height: 120%;
   letter-spacing: 0.02em;
-  color: #2e2f42;
 }
 
 .features-text {
-  font-family: var(--font-family);
   font-weight: 400;
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 0.02em;
-  color: #434455;
+}
+
+.our-team {
+  background-color: #f4f4fd;
+  height: 732px;
+  width: 1440px;
+}
+.our-team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 111%;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+
+.our-team-name {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 120%;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+
+.our-team-position {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+
+.portfolio {
+  background-color: #e7e9fc;
+  width: 1128px;
+  height: 1000px;
+}
+
+.portfolio-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 111%;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+
+.portfolio-service {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 120%;
+  letter-spacing: 0.02em;
+}
+
+.portfolio-service-type {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+}
+
+.portfolio-picture {
+  width: 360px;
+  height: 300px;
 }
