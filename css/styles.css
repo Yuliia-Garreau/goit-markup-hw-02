@@ -75,7 +75,7 @@ body {
 }
 
 .button-order-service:hover,
-.button-order-service:active {
+.button-order-service:focus {
   background-color: #404bbf;
 }
 
@@ -124,6 +124,7 @@ body {
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 0.02em;
+  color: #434455;
 }
 
 .portfolio {
