@@ -30,11 +30,11 @@ body {
 }
 
 .menu:hover,
-.menu:active {
+.menu:focus {
   color: #404bbf;
 }
 
-address {
+.address {
   font-style: normal;
 }
 .contacts {
@@ -47,7 +47,7 @@ address {
 }
 
 .contacts:hover,
-.contacts:active {
+.contacts:focus {
   color: #404bbf;
 }
 
@@ -61,6 +61,7 @@ address {
   line-height: 107%;
   letter-spacing: 0.02em;
   color: #ffffff;
+  text-align: center;
 }
 .button-order-service {
   font-family: "Roboto", sans-serif;
@@ -70,11 +71,12 @@ address {
   letter-spacing: 0.04em;
   background: #4d5ae5;
   color: #ffffff;
+  cursor: pointer;
 }
 
 .button-order-service:hover,
 .button-order-service:active {
-  color: #404bbf;
+  background-color: #404bbf;
 }
 
 .features-title {
@@ -94,6 +96,7 @@ address {
 
 .our-team {
   background-color: #f4f4fd;
+  color: #2e2f42;
 }
 .our-team-title {
   font-weight: 700;
