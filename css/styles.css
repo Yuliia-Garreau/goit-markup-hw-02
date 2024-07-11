@@ -182,3 +182,12 @@ body {
   line-height: 150%;
   letter-spacing: 0.02em;
 }
+
+.test {
+  border: 1px;
+}
+
+.section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
